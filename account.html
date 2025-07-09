@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WildCare | Account</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <h1>WildCare</h1>
+          </div>
+          <div class="nav">
+            <ul id="MenuItems">
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./Animal_laws.html">Animal Laws</a></li>
+              <li><a href="./Donate.html">Donate Now</a></li>
+              <li><a href="./about.html">About Us</a></li>
+              <li><a href="./account.html">Account</a></li>
+            </ul>
+          </div>
+          <img
+            src="./img/menu.png"
+            class="menu-icon"
+            onClick="menutoggle()"
+            alt="menu"
+          />
+        </div>
+            </div>
+        </div>
+        <div class="account-page">
+            <div class="container">
+                <div class="row" style="margin: 0px; padding: 0px; padding-top: 50px;">
+                    <div class="col-2">
+                        <img src="./img/leo.png" width="80%" alt="login" style="filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.4));">
+                    </div>
+                    <div class="col-2">
+                        <div class="form-container">
+                            <div class="form-btn">
+                                <span onclick="login()">Login</span>
+                                <span onclick="register()">Register</span>
+                                <hr id="Indicator">
+                            </div>
+                            <form id="LoginForm">
+                                <input type="text" placeholder="username">
+                                <input type="password" placeholder="password">
+                                <button type="submit" class="btn">Login</button>
+                                <a href="">Forgot password</a>
+                            </form>
+                            
+                            <form id="RegForm">
+                                <input type="text" placeholder="username">
+                                <input type="email" placeholder="email">
+                                <input type="password" placeholder="password">
+                                <button type="submit" class="btn">Register</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                    
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+      <div class="foot-container">
+        <div class="foot1">
+          <h3>Download Our App</h3>
+          <p>Download App for Android and ios mobile phone</p>
+          <div class="img">
+            <img src="./img/app-store.png" alt="app store" /><img
+              src="./img/play-store.png"
+              alt="playstore"
+            />
+          </div>
+        </div>
+        <div class="foot1" id="foot2">
+          <div class="logo" id="#logo">
+            <h1>WildCare</h1>
+          </div>
+          <p>
+           Our mission is to protect and rescue wildlife through compassionate action and community support.
+          </p>
+        </div>
+        <div class="foot1">
+          <h3>Useful Links</h3>
+          <ul>
+            <li>Coupons</li>
+            <li>Blog Post</li>
+            <li>Return Policy</li>
+            <li>Join Affiliate</li>
+          </ul>
+        </div>
+        <div class="foot1">
+          <h3>Follow Us</h3>
+          <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+            <li>Youtube</li>
+          </ul>
+        </div>
+        <hr class="footer-line" />
+        <div class="footer-bottom">
+          <p>
+            © Copyright 2025 – Team Rajpur(Sahil Suriya, Saksham Rana , Akshit
+            Kumar, Bansaj Sharma)
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
