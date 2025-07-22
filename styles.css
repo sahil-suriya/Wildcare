@@ -597,7 +597,7 @@
     max-width: 300px;
     padding: 0 20px;
     position: absolute;
-    top: 130px;
+    top: 70px;
     transition: transform 1s;
 }
 
@@ -752,4 +752,10 @@ form a{
     padding: 15px;
     border-radius: 10px;
   }
+}
+.qrcode{
+  height: 260px;
+  width: 260px;
+  background:url(./img/QRcode.jpeg) center center;
+  background-size: contain;
 }
